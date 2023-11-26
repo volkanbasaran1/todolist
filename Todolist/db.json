@@ -1,0 +1,60 @@
+{
+  "todos": [
+    {
+      "id": "dededes",
+      "title": "Exercise",
+      "status": "daily",
+      "date": "2023-09-28",
+      "isDone": true
+    },
+    {
+      "title": " sdasdasdk",
+      "status": "daily",
+      "id": "0ad5f54c-9350-4d42-b8ef-82b781860ea3",
+      "isDone": false,
+      "date": "11.11.2023"
+    },
+    {
+      "title": "dasdasda",
+      "status": "daily",
+      "id": "234a0ff8-d4be-42c2-96e0-ad309ebe7f34",
+      "isDone": false,
+      "date": "11.11.2023"
+    },
+    {
+      "title": "safaxca",
+      "status": "daily",
+      "id": "b01d0cd6-dfe6-4317-bb63-d69e9e0728db",
+      "isDone": false,
+      "date": "11.11.2023"
+    },
+    {
+      "title": "wdasdas",
+      "status": "daily",
+      "id": "74ae8f63-cf6d-4b2c-a7df-c0dbc6df2b04",
+      "isDone": false,
+      "date": "11.11.2023"
+    },
+    {
+      "title": "dascas",
+      "status": "daily",
+      "id": "74e124f0-0d50-428d-a8fe-20a57e1be13b",
+      "isDone": false,
+      "date": "11.11.2023"
+    },
+    {
+      "title": "dasda",
+      "status": "daily",
+      "id": "f3257b81-1cca-4cab-a549-8c695207d745",
+      "isDone": false,
+      "date": "11.11.2023"
+    },
+    {
+      "title": "dasde2e",
+      "status": "daily",
+      "id": "baf866c2-3838-41a6-a9b1-a273d4ce1530",
+      "isDone": false,
+      "date": "11.11.2023"
+    }
+  ]
+}
