@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #000;
+  color: white;
+  overflow-x: hidden;
+}
+
+.videos {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  display: grid;
+  justify-content: space-between;
+  padding: 0 40px;
+  gap: 30px;
+  /* video boyutu min 350 max 450 px olabilir kaç sütun sığıyorsa o kadar doldur */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+}
+
+.videos::-webkit-scrollbar {
+  background-color: #000;
+  width: 9px;
+}
+
+.videos::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 169px auto;
+  gap: 10px;
+}
+
+.commentgrid{
+  display: grid;
+  grid-template-columns: 40px auto;
+  gap: 10px;
+}
+
+@media (max-width: 1300px) {
+  .videos {
+    justify-content: center;
+  }
+}
+@media (max-width: 876px) {
+  .videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    gap: 50px;
+    padding: 20px;
+  }
+}
